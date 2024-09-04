@@ -1,0 +1,80 @@
+name: what_we_eat
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.6
+  get: 4.6.6
+  nb_utils: ^7.0.3
+  persistent_bottom_nav_bar_v2: ^5.2.3
+  font_awesome_flutter: ^10.7.0
+  lottie: ^3.1.2
+  flutter_gemini: ^2.0.4
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  cached_network_image: ^3.3.1
+  loading_animation_widget: ^1.2.1
+  qr_code_scanner: ^1.0.1
+  rename: ^3.0.2
+  image_picker: ^1.1.2
+  connectivity_plus: ^6.0.5
+  flutter_onboarding_slider: ^1.0.11
+
+
+
+
+
+
+
+
+
+
+
+  flutter: 
+    sdk: flutter
+  camera: ^0.11.0+1
+  path_provider: ^2.1.3
+  path: ^1.9.0
+
+dev_dependencies: 
+  flutter_lints: 4.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.1
+  flutter_test: 
+    sdk: flutter
+
+
+
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+
+flutter_native_splash:
+  color: "#ffffff"
+  color_dark: "#000000"
+  image_dark: "assets/images/logo_dark.png"
+  image: "assets/images/icon.png"
+  android: true
+  ios: true
+  android_12:
+    color: "#ffffff"
+    image: "assets/images/icon.png"
+    color_dark: "#000000"
+    image_dark: "assets/images/logo_dark.png"
+
+
+
+
+
